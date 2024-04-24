@@ -59,3 +59,4 @@
 - `US_2020_ADI_Census Block Group_v3.2.csv` (2020 ADI percentiles)
 - `us-state-fips.csv` (All US states and their FIPS code)
 - `nhgis0001_ds258_2020_blck_grp` (All BGs and land areas can be found in this file. For a detailed description, see `nhgis0001_ds258_2020_blck_grp_codebook.txt`)
+- `all_rural_rest_pairs_1056_fipstr.csv` (Considering that land areas are typically larger for BGs in rural areas than in urban areas (see land area analysis), for BGs that do not have FPs within 25 miles in rural areas we computed distance of FPs located within 50 miles. This file contains the rest of BGs in rural areasthat have FPs within 50 miles)
