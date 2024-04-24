@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Pantries and Food Banks</title>
+  <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+</head>
+<body>
+  <h2>Task: Find Food Pantries and Food Banks in Your State</h2>
+  <crowd-form answer-format="flatten-objects">
+    <p>1. Enter your 5-digit ZIP code (i.e., 01001). </p>
+    <crowd-input name="zipCode" placeholder="Enter your zip code" required></crowd-input>
+    <br><br>
+    <p>2. In the box below, list location addresses of all food pantries and/or food banks in your state. You may search for "food pantry or food bank near XX" via Google.
+      The format of inputs below should look as follows: 
+      <p>- 104 Sunderland Rd, Amherst, MA 01002</p>
+      <p>- 138 Amherst Rd, Sunderland, MA 01003</p>
+    </p>
+    <crowd-output name="fp"></crowd-output>
+    <br><br>
+    <crowd-text-area name="address" placeholder="List addresses of Food Pantries and/or Food Banks in Your State" rows="5" required></crowd-text-area>
+    <br><br>
+    <crowd-submit-button></crowd-submit-button>
+  </crowd-form>
+</body>
+</html>
